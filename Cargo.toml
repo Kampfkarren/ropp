@@ -4,7 +4,7 @@ description = "Roblox Pre/Post Publishing"
 version = "0.1.0"
 authors = ["Kampfkarren"]
 edition = "2018"
-license = "GPLv3"
+license = "GPL-3.0"
 
 [dependencies]
 reqwest = "0.9"
