@@ -1,0 +1,1283 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX2D718D9FF88042BB93693E5FCCC59D0C">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<string name="CollisionGroups">Default^0^1</string>
+			<Ref name="CurrentCamera">RBX85DF307BCBA44D26805E07353B293D23</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExpSolverEnabled_Replicate">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<bool name="FilteringEnabled">false</bool>
+			<float name="Gravity">196.199997</float>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<bool name="PGSPhysicsSolverEnabled">true</bool>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="StreamingEnabled">false</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Camera" referent="RBX85DF307BCBA44D26805E07353B293D23">
+			<Properties>
+				<CoordinateFrame name="CFrame">
+					<X>-55.3639717</X>
+					<Y>24.505949</Y>
+					<Z>1.70413506</Z>
+					<R00>-0.166765124</R00>
+					<R01>0.429137558</R01>
+					<R02>-0.88771081</R02>
+					<R10>-0</R10>
+					<R11>0.900318325</R11>
+					<R12>0.435232252</R12>
+					<R20>0.985996664</R20>
+					<R21>0.0725815594</R21>
+					<R22>-0.150141686</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-53.5885506</X>
+					<Y>23.6354847</Y>
+					<Z>2.00441837</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX99F560347E2E43BCA7DF200AA5BBA053">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.300000012</float>
+				<float name="Friction">0.5</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">4278998108</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX22B8679817F443EBAC977E7414D0900E">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-10</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4284702562</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Baseplate</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">0</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>20</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBXDC55861231A640BAAA50CBC83E5EC1FC">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">false</bool>
+			<float name="RolloffScale">1</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX7034B7D25F0F4DA1966CBE77F9A5578E">
+		<Properties>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX2BBD3C584E394F978C5FBFC0237410B7">
+		<Properties>
+			<string name="Name">CSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX1BE3898134CC4CB7B285A3C47991D8E4">
+		<Properties>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX4EF58E9AC9FE4F28917085D8B4ACE97D">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXEA3AE87B15B542DF8E85537873086C77">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">56832</int>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX0B5F99451D9C48D49C1DA10091523C06">
+		<Properties>
+			<string name="Name">ReplicatedFirst</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBXACA2B0065A4D4526933EF50E5573935B">
+		<Properties>
+			<string name="Name">TweenService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VirtualInputManager" referent="RBXC6F2B34AA72B4FB5A906D6393A61A31F">
+		<Properties>
+			<string name="Name">VirtualInputManager</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX20E77A15E1064660B4BBA6B83F06A960">
+		<Properties>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">400</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX46A9633C4BA343AC8536DE2C40700A2C">
+			<Properties>
+				<string name="Name">StarterPlayerScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBX0F5995E5589B4FD08013C54F8DD2CE6C">
+			<Properties>
+				<string name="Name">StarterCharacterScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX4A73988D1BEF49CA8EA6EFFE4A5C0D0C">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBXAF2C2355B8FA42D193DB87AE9440FAF5">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBX269B43C1A8D94EB9A172D10A7D39DBE9">
+		<Properties>
+			<string name="Name">LocalizationService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX0B1CCF54161547ADA1D50D1179864B9B">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX3F7FE4E6FC5D46FBA31DA33E72D05340">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBXF4D8592708E34ED09CE82197BB701862">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX233480B418984E97802C31A3A4956130">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="RBXF209535057B34157945B1A31503398A7">
+			<Properties>
+				<string name="Name">FriendCache</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Folder" referent="RBXB7E93C440C6042C7A384B9DC7A793B61">
+				<Properties>
+					<string name="Name">56140227</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="IntValue" referent="RBX4FB4ABBC0A364A2390A25306A8144B3E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">432885023</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX6BA8F75E3D2E40B4AB5678FB1F1749E0">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">276198022</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3B5F98712A3A4C7B90D983AAB9ABF202">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">627607</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXFA7185D2E87C42B192EAFCCDC880EDC1">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">2896450</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXC01A6402F6C14E8C9BB114A7A43AB358">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">57665287</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3DA538A011544745A257B5CF66EE1470">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">82383231</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX49E930B20BC64A24BBB63D6ADB1CE692">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">546660586</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB3D800D42EFD449781D158716C18CFFB">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">44309</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX852AB3C6D9F64592A22AB928C008AEBB">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">4528247</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX44D6E5815B0049E59A91777F95FC6CAD">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">490032145</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX32CE53A3653E42F4B9D638AF23486DBC">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">254194525</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX018595AE55F74241A47344B36BAF7A59">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">23942381</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX1816C9B45A0B4E529D7F7CCAE051ACF8">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">464085376</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCD199C85B4A7447E88DDDE339EAF8C1D">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">420609844</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX4F0284B1F58D42938D5744F7872363FE">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">103651737</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX92AC434BF40E4EFC935A38F2DEE8F87E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">143435694</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX4026FEE64992405CAFE5976E4AC13552">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">327533979</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB3F23CEC336B4D178127A1982996E3B0">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">18390582</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3386EF5B16BA4AC3B3C43CFB3D36310D">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">290366660</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCFE647BD58A94D7BA16CDECCDF208CAE">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">255135146</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXAC1D20CBCC32494AAD6B63558F832EEF">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">440040801</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX4BEF3DE3DC804E0E953280F6681ABC82">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">3596805</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX2C93168F1D1F4996B35936289C156F17">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">404716455</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB59085F69C2741CEB209734326CB258A">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">10086676</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX73AA89C87C234ED9A49FA7B377BF7F48">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">63707801</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX23742EE1D8BC433880D458E5E29CADE3">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">8271998</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX6D145328B9614FD98460B90A8C1BA6C4">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">98866961</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX9DE90816E6504CBAAA2579678FA11891">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">87811347</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXD50360E3F55945ACA21B826FC95074AF">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">92451392</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX9F21C3D693954C0D9520700D37D5942C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">294568</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX0BC47F2C6B704B4788CB66975EDFFF43">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">195269701</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB293B23764A34ECAB07EF2C2394AEF28">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">289796459</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXDCE5DEF5EE0A480BAB7394E89BA6BCF4">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">48764983</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXDE9DD54080B9413594BB2307154E173B">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">67905731</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX7B189BE266A94B5994FDB462B0BF146C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">396581171</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXC3FEB1D8078D45B6A2DC832600A35C60">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">7695144</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX8ADE2D4B35C84D96BACDAF67D60DDDC3">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">51730488</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX4E276E5D97474BC9A772D5B4F65CC7AA">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">22966936</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX2ECABA87D0AE486BAF4C5524BC9AAE97">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">59777322</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX7EABA9F369E64B1DB89F4169C60CDC4D">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">15178310</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX1373DD09F3EA4B35A615873FC7D2AD92">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">328934997</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX23ABA6C09D94477BABB06D06720BA81E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">69825065</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXD90614414D4047AE80968DE94D98D917">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">96001</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB0938B2DD9BC4C1B8247D31A4A1201F6">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">253626656</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXD8458C5DCA734EEB982E783485CA6F83">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">363038075</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX8E4AC0B808CD4D51B536DCE05AA1AB68">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">62996799</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXB3D8961FB2AB43BDB21C1EBDEAD1F50C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">324234517</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX16CCF1AA89664A18B366AB4FCE57AEC0">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">302682965</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX50EF7258169B4914B0F4BCE29340C33A">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">36494882</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX09E99C723DD442B3B74643B7D157CDD1">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">324206133</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX37AC75AAE5B84D01955E8078D0BF1CF8">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">249072211</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX742585420EAC4049A4E9B3CF082770D4">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">103860790</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX409BCD376C5F45008E68C7D910E21AB4">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">340666193</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX080DC5E740E84A78826CDB12B914D360">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">336762324</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX0BF81A9EBD724470932D99F81399491E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">19204121</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXFB523B79EEDB44299898CBF11C106548">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">187130258</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3392C7AB3BDA4F5EAD15475FDC9C26B3">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">15949751</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXFF7004D86D064496A883222D554BF17C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">27979176</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXE05B259BBEBC401AB49DE40A040D8FAA">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">331073267</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXAF06CDEABDAB43ABB5BC6A99CDE940CF">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">273882533</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3709F35254104A60AAA8D04185DC54FC">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">309843325</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX1EB041A268FA4571A8A00A5340135691">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">1558888</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXD842D91A91CD4FEDB90A1DFC9925C938">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">53427446</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX6C4647E0EF934DFDB857323E2919B07B">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">47189013</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX266716489E6D4F179AE86D8D7F7DC10B">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">25119287</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX769E076EDDA84084808F305C376F8AD3">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">283938388</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX6D9264FD25B74BB5B4F5DCEDF67BEDFF">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">273865623</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXECB51CBA8C6845669143D8BECD8E56CA">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">29887280</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXEAE91D33EA26457B9A29A57363DF79D7">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">47966663</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX34A7793AB8D24A5794865AC7158C5337">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">156036472</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX2D017370E7BA48839FC3DDA2C2BFD49C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">173088939</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCF17AF3B4A3143DA93812DE29F81D34E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">90792028</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX723095AC650045CE9C8B69327B8DB948">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">28063217</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX19FA1F72FC85404AB1BFED8B52DE7016">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">2549236</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX63D5CB9CD3D34F86AFDDEB16DDB8E30E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">171890431</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX7BFCD956D51B4F28BDE935B0F8B02F0C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">25892359</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX6A1EBF93E4FE4EC1901B6D547E60D836">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">46914122</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX032386B5AEC24786AD4B2B6F71CB7D2E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">111431959</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX260A1E9184C64CF58962CB88AF49A4D1">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">38040916</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXF84AB773DEAD42E9BAE0B599A3584021">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">3564465</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX5FD189CCBC194D6090AF2AC4AE70E51A">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">146604472</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXEEA6470347A844818182C15138392570">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">138159515</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXAD2A7D35883344F3880BB12B13012DD5">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">18589391</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXDCEE73EF63C944BC91AC20061A24E38E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">145411601</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX98151F4049F846BCA7716AEF0D3B8B66">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">2012357</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXD2012F91DD464FA8BF4F5D30B8278B4A">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">896716</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX1F3331707EB742BD99548E78BA94B984">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">139939222</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX5A926098B14743F68EE75704499F71C7">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">8393409</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXA5126707E8C24041A03FEFD97AC719BB">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">98858218</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX29E8FA78C9794661BE1C9A43C252892E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">1737165</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX80EC0BC86EA04C1081AB37E6DF4D3BB3">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">83043338</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXA42AF84A1C2B421A95ABDF51C1CA86E5">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">102386213</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXF4BC115F9DF34F6B9D80CE6A43B19944">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">81205652</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXAEF0F67F77B8453083CC927E904086F7">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">90711106</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXFAF6E503F53D40EEB2214A3BE7481165">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">100911430</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX4A6C11D0697C457FB85A8EDEE9382053">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">24315058</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXDCC89BA2CE0D4385810F2364D74CC62C">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">4977291</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3D3C905907B44060BB3190981A884D61">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">2291518</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCFFB1664CDBA4125811039DB231C9D06">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">17757496</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXCF15F33C00CF4749AC3E985E6D3EDD34">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">79141055</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX69A81BAF85E14DDA900FD628AEB53FF1">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">87964214</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX8CA9AF1727854879858FDDFD9FC84F23">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">88385524</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX5715A7B355644C3599DEEF3E33FFD88E">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">84332606</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXF3C437052F4C430BB0145E360D26BE29">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">17674283</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX9390B5B8CAB04542AC96B721837B7A5A">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">83480281</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXE8BA14EFD2CE4B09A062A05E3B4524F1">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">53572246</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBXEDAD3EB00F5843A0BD65F169189338F9">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">747269</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX13EB5BA0FFAF4ED9BF1DB7436904B6A5">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">81216294</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX0AF61EDAA9EA4582B3BBC162E65852CA">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">79919697</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX59BAD0658AB847F7B3F109441B7F4AED">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">62815611</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX7AD62F6673B44C669A756A9A14A47919">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">21393491</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX3F2E5A1B9C474681BDF3AC66B0ED7286">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">78640616</int>
+					</Properties>
+				</Item>
+				<Item class="IntValue" referent="RBX7C8892AF5B374DF888758D9E16243982">
+					<Properties>
+						<string name="Name">Value</string>
+						<BinaryString name="Tags"></BinaryString>
+						<int name="Value">8547498</int>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="InsertService" referent="RBX07A074BBD85D452D82FF633DB91D2051">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<string name="Name">InsertService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBX29BAC44A208048B685DA59E2D8F8039D">
+		<Properties>
+			<string name="Name">GamePassService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX52CC6297C5D14DD0973A1D00E8A72AF4">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX20E1C9233C8B43B7A5F19060D4B0DFF5">
+		<Properties>
+			<string name="Name">CookiesService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBX1EF7307942A44A49A046428CB79A0AD0">
+		<Properties>
+			<string name="Name">VRService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX97A2049D020B4EB5B8B25C1A23FB1BB7">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBXA538F570090547138AD79535C05A3A57">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX9BF81DCE38DC435F8FFD6409643F6F23">
+		<Properties>
+			<string name="Name">AssetService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBXDE24EAE6E40844ADA2243BC6768BDEA9">
+		<Properties>
+			<string name="Name">TouchInputService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX1086E2595CCB4689B102F628B4475C7A">
+		<Properties>
+			<string name="Name">Selection</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX870EC45E254540A8AB1DA21577D11152">
+		<Properties>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerStorage" referent="RBX8E759C57BBE8462C8BB47CC1B24263F1">
+		<Properties>
+			<string name="Name">ServerStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX1FFBCA03B152449B8132F1B366FA0BBC">
+		<Properties>
+			<string name="Name">ReplicatedStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LuaWebService" referent="RBXC205313102554EC094E1A60463AA0774">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBXC1A76E0E70F34BD6835650E976621038">
+		<Properties>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX4F4E54763EE7447E8E6880A9F35C3D0F">
+		<Properties>
+			<Color3 name="Ambient">4278190080</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">4286611584</Color3>
+			<bool name="Outlines">false</bool>
+			<BinaryString name="Tags"></BinaryString>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+</roblox>

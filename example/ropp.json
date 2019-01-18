@@ -1,0 +1,14 @@
+{
+    "builds": {
+        "prod": 1579220505
+    },
+
+    "steps": {
+        "prod": {
+            "pre": [
+                ["python", "./steps/pre.py"]
+            ],
+            "post": []
+        }
+    }
+}
